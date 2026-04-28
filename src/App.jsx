@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 // Pages
 import Login from './pages/Login.jsx';
 import DashboardOverview from './pages/DashboardOverview.jsx';
-import Orders from './pages/orders.jsx';
+import Orders from './pages/Orders.jsx';
 import Services from './pages/Services.jsx';
 import StaffManagement from './pages/StaffManagement.jsx';
 import StaffDashboard from './pages/StaffDashboard.jsx';
