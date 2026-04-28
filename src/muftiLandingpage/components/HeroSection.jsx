@@ -1,10 +1,10 @@
 import React, { useState, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import * as Icons from 'lucide-react'
-import useInView from '../hooks/useInView'
-import { smoothScroll } from '../utils/helpers'
-import WashingMachineAnimation from './WashingMachineAnimation'
-import TrustMetric from './TrustMetric'
+import useInView from '../hooks/useInView.js'
+import { smoothScroll } from '../utils/helpers.js'
+import WashingMachineAnimation from './WashingMachineAnimation.jsx'
+import TrustMetric from './TrustMetric.jsx'
 
 /**
  * Hero section with:

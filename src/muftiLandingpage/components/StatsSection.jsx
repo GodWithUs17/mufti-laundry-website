@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
-import useInView from '../hooks/useInView'
-import StatCard from './StatCard'
+import useInView from '../hooks/useInView.js'
+import StatCard from './StatCard.jsx'
 
 /**
  * Animated statistics counter band.

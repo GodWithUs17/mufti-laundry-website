@@ -1,9 +1,9 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import * as Icons from 'lucide-react'
-import useInView from '../hooks/useInView'
-import FormField from './FormField'
-import SuccessModal from './SuccessModal'
-import API from '../../api/axios'
+import useInView from '../hooks/useInView.js'
+import FormField from './FormField.jsx'
+import SuccessModal from './SuccessModal.jsx'
+import API from '../../api/axios.js'
 
 /**
  * Booking form section with:
