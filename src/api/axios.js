@@ -1,28 +1,9 @@
-// import axios from 'axios';
-
-// const API = axios.create({
-//   // This is your backend URL
-//   baseURL: 'http://localhost:5000/api', 
-// });
-
-// // This "Interceptor" automatically attaches your token to every request
-// // so you don't have to manually add it in every component.
-// API.interceptors.request.use((config) => {
-//   const token = localStorage.getItem('token');
-//   if (token) {
-//     config.headers.Authorization = `Bearer ${token}`;
-//   }
-//   return config;
-// });
-
-// export default API;
-
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
 const API = axios.create({
-  // This is your backend URL
-  baseURL: 'http://localhost:5000/api', 
+  // Backend URL from environment variables
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api',
 });
 
 // REQUEST INTERCEPTOR: Attaches the token
