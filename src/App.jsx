@@ -16,7 +16,7 @@ import TrackOrder from './pages/TrackOrder.jsx';
 // Components & Middleware
 import ProtectedRoute from './components/protectedRoute.jsx';
 import AdminLayout from './components/AdminLayout.jsx';
-import MuftiLandingPage from './muftiLandingpage/App.jsx';
+import MuftiLandingPage from './muftiLandingpage/MuftiLandingPage.jsx';
 
 function App() {
 
