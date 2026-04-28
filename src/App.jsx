@@ -4,19 +4,19 @@ import { Toaster, toast } from 'react-hot-toast';
 import { useEffect } from 'react';
 
 // Pages
-import Login from './pages/Login';
-import DashboardOverview from './pages/DashboardOverview';
-import Orders from './pages/orders';
-import Services from './pages/Services';
-import StaffManagement from './pages/StaffManagement';
-import StaffDashboard from './pages/StaffDashboard';
-import InvoiceView from './pages/InvoiceView';
-import TrackOrder from './pages/TrackOrder';
+import Login from './pages/Login.jsx';
+import DashboardOverview from './pages/DashboardOverview.jsx';
+import Orders from './pages/orders.jsx';
+import Services from './pages/Services.jsx';
+import StaffManagement from './pages/StaffManagement.jsx';
+import StaffDashboard from './pages/StaffDashboard.jsx';
+import InvoiceView from './pages/InvoiceView.jsx';
+import TrackOrder from './pages/TrackOrder.jsx';
 // import MuftiLandingPage from './pages/MuftiLandingPage';
 // Components & Middleware
-import ProtectedRoute from './components/protectedRoute';
-import AdminLayout from './components/AdminLayout';
-import MuftiLandingPage from './muftiLandingpage/App';
+import ProtectedRoute from './components/protectedRoute.jsx';
+import AdminLayout from './components/AdminLayout.jsx';
+import MuftiLandingPage from './muftiLandingpage/App.jsx';
 
 function App() {
 
