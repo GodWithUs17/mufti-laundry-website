@@ -72,7 +72,7 @@ const PricingSection = React.memo(() => {
           <h2 className="mt-4 mb-4 text-3xl font-extrabold text-mufti-blue-950 sm:text-4xl lg:text-5xl">
             Transparent <span className="gradient-text">Pricing</span>
           </h2>
-          <p className="text-lg text-slate-500">Fair prices for premium quality in Iseyin. No hidden charges.</p>
+          <p className="text-lg text-slate-500">Fair prices for premium quality in Ibadan. No hidden charges.</p>
         </div>
 
         {/* Category Filter Tabs */}
