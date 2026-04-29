@@ -6,7 +6,7 @@ import * as Icons from 'lucide-react'
  */
 const WhatsAppFAB = React.memo(() => (
   <a
-    href="https://wa.me/2348123456789?text=Hello%20Mufti%20Spot!%20I'd%20like%20to%20book%20a%20laundry%20pickup."
+    href="https://wa.me/2348159167062?text=Hello%20Mufti%20Spot!%20I'd%20like%20to%20book%20a%20laundry%20pickup."
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Chat on WhatsApp"

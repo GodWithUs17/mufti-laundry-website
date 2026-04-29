@@ -49,7 +49,7 @@ const Footer = React.memo(() => (
           {/* Social Links - Fixed with React Icons */}
           <div className="flex gap-3">
             {[
-              { icon: 'WhatsApp', href: 'https://wa.me/2348123456789', label: 'WhatsApp' },
+              { icon: 'WhatsApp', href: 'https://wa.me/2348159167062', label: 'WhatsApp' },
               { icon: 'Instagram', href: 'https://instagram.com/muftispot', label: 'Instagram' },
               { icon: 'Twitter', href: 'https://twitter.com/muftispot', label: 'Twitter' },
             ].map((s) => {
